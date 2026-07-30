@@ -1,0 +1,226 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #F4CFC9;
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* --- Floating Rounded Header Styles --- */
+.floating-header-container {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header-pill {
+    background-color: #f8f3f2;
+    width: 100%;
+    max-width: 1180px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.guzal-logo-svg {
+    height: 38px;
+    width: auto;
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+nav a.active, nav a:hover {
+    color: #e25858;
+}
+
+nav a i {
+    font-size: 10px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+}
+
+.icon-link:hover {
+    color: #e25858;
+}
+
+/* Cart Pill Button */
+.cart-btn {
+    background-color: #e25858;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 6px 6px 18px;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cart-circle-icon {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    margin-top: 130px;
+    padding: 50px 0 100px 0;
+}
+
+.hero-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row !important;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.hero-content h1 {
+    font-size: 54px;
+    font-weight: 800;
+    color: #2b2b2b;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+
+.welcome-highlight {
+    background: #ffcc00;
+    padding: 0 6px;
+    border-radius: 4px;
+}
+
+.giraffe-badge {
+    display: inline-block;
+    font-size: 0.7em;
+    background: #7a56d6;
+    padding: 2px 8px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.show-now-btn {
+    background-color: #e25858;
+    color: white;
+    padding: 8px 8px 8px 24px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(226, 88, 88, 0.3);
+}
+
+.arrow-circle {
+    background-color: #fff;
+    color: #e25858;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* --- Image Wrapper (White circle completely removed) --- */
+.hero-image-wrapper {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-kids-image {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* --- Bottom Yellow Banner --- */
+.bottom-banner {
+    background-color: #f6d142;
+    color: #222;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+.banner-content span {
+    margin: 0 15px;
+}
